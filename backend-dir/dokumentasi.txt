@@ -1,0 +1,28 @@
+url: localhost:8080/person
+http request: GET
+
+JSON request:
+{
+    "nik":"21111223132"
+}
+
+Response:
+
+data not found:
+http code: 400
+json: 
+{
+    "message": "data not found."
+}
+
+data found:
+http code: 200
+json:
+{
+    "personId": 2,
+    "nik": "2111123132",
+    "fullName": "Zidane F.",
+    "gender": "Laki-laki",
+    "address": "Jalan Tubagus Ismail",
+    "statusPernikahan": "Belum menikah"
+}s
