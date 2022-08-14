@@ -1,14 +1,2 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/learning-spring-batch
-    username: root
-    password: mysq23zf
-    type: com.zaxxer.hikari.HikariDataSource
-
-  jpa:
-    generate-ddl: true
-    hibernate:
-      ddl-auto: update
-
 server:
   port: 8080
