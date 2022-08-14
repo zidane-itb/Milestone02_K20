@@ -6,8 +6,6 @@ import com.milestone.datasourcenfc.repository.PersonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
 @Service
 @RequiredArgsConstructor
 public class PersonService {
@@ -15,8 +13,8 @@ public class PersonService {
     private final PersonRepository personRepository;
 
     public Person getPersonByNik(String nik) {
-        Person person = personRepository.findPersonByNik(nik).
-                                orElseThrow(PersonNotFoundException::new);
+        Person person = personRepository.findPersonByNik(nik)
+                                            .orElseThrow(PersonNotFoundException::new);
         return person;
     }
 
