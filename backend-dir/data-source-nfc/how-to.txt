@@ -1,0 +1,20 @@
+how to request for data:
+url: localhost:8080/person
+http method: GET
+
+json request:
+{
+"nik":"2002001"
+}
+
+NIK range: 2002001-2002009
+
+response:
+{
+    "personId": 1,
+    "nik": "2002001",
+    "fullName": "Zidane F.",
+    "gender": "Laki-laki",
+    "address": "Jalan Ganesha",
+    "statusPernikahan": "Belum Menikah"
+}
