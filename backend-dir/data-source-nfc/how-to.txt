@@ -18,3 +18,7 @@ response:
     "address": "Jalan Ganesha",
     "statusPernikahan": "Belum Menikah"
 }
+
+how to run:
+1. install java 18
+2. open cmd, point directory to jar folder. type: java -jar data-source-nfc-0.0.1-SNAPSHOT.jars
