@@ -4,7 +4,7 @@
 | Nomor | Nama                    | NIM      | Kontribusi |
 | :---: |-------------------------| ---------|------------|
 | 1     | Aditya Inas Hamidah     | 16521107 | README.md  |
-| 2     | Ahmad Rivai Yahya       | 16521523 | Back End   |
+| 2     | Ahmad Rivai Yahya       | 16521523 | Front End  |
 | 3     | Angger Ilham A          | 16521517 | Back End   |
 | 4     | Ardhan Nur Urfan        | 16521244 | Front End  |
 | 5     | Aulia Nadhirah Yasmin B | 16521204 | PPT        |
