@@ -18,8 +18,12 @@
 | 13    | Zidane Firzatullah      | 16521420 | Back End   |
 ## Getting Started
 **- Menjalankan aplikasi dengan simulasi android**
+
 Install flutter dan kebutuhannya (dart, android sdk, simulator android, dll)
+
 Pilih dan buka editor yang ingin digunakan (bisa android studio/vscode)
+
 Nyalakan simulator adnroid dan buka file main.dart di folder lib
 Tekan tombol run (f5 di vscode) aplikasi akan menyala di simulatornya
+
 https://docs.flutter.dev/get-started/editor?tab=androidstudio
