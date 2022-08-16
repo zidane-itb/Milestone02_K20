@@ -64,7 +64,8 @@ class _ShowDataPageState extends State<ShowDataPage> {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    data?.Fullname,
+                    // 'Robert Vancini'
+                    data![0].fullName,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -75,7 +76,8 @@ class _ShowDataPageState extends State<ShowDataPage> {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    '00307734661268',
+                    //'00307734661268'
+                    data[0].nik,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -86,7 +88,8 @@ class _ShowDataPageState extends State<ShowDataPage> {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Laki-laki',
+                    //'Laki-laki'
+                    data[0].gender,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -97,7 +100,8 @@ class _ShowDataPageState extends State<ShowDataPage> {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Jl. Martadinata, Soreang, Kab. Bandung, Jawa Barat',
+                    //'Jl. Martadinata, Soreang, Kab. Bandung, Jawa Barat'
+                    data[0].address,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -119,7 +123,8 @@ class _ShowDataPageState extends State<ShowDataPage> {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Status Pernikahan',
+                    //
+                    data[0].statusPernikahan,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
