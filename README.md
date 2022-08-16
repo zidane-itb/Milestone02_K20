@@ -16,3 +16,4 @@
 | 11    | Yanuar Sano Nur Rasyid  | 16521176 | Front End  |
 | 12    | Yasmin Arum Sari        | 16521260 | Front End  |
 | 13    | Zidane Firzatullah      | 16521420 | Back End   |
+## Getting Started
