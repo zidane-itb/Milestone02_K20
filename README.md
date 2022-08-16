@@ -17,7 +17,7 @@
 | 12    | Yasmin Arum Sari        | 16521260 | Front End  |
 | 13    | Zidane Firzatullah      | 16521420 | Back End   |
 ## Getting Started
-**- Menjalankan aplikasi dengan simulasi android**
+- **Menjalankan aplikasi dengan simulasi android**
 
 Install flutter dan kebutuhannya (dart, android sdk, simulator android, dll)
 
@@ -27,3 +27,12 @@ Nyalakan simulator adnroid dan buka file main.dart di folder lib
 Tekan tombol run (f5 di vscode) aplikasi akan menyala di simulatornya
 
 https://docs.flutter.dev/get-started/editor?tab=androidstudio
+
+
+- **Cara memakai aplikasi**
+
+Tekan tombol Get Started dan Anda akan diarahkan ke halaman utama
+
+Pada halaman utama, terdapat 4 bagian yaitu show data, validate, auto fill form, dan connect(coming soon feature)
+
+Ketika memilih menu tersebut user akan diarahkan untuk scan KTP
