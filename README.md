@@ -40,6 +40,6 @@ Pada halaman utama, terdapat 4 bagian yaitu show data, validate, auto fill form,
 - Auto fill form : mengisi form secara otomatis sesuai data yang discan
 - Connect (coming soon) : menghubungkan data yang ada pada CIS dengan aplikasi lain
 
-Ketika memilih menu tersebut user akan diarahkan untuk scan KTP
+Ketika memilih salah satu menu tersebut user akan diarahkan untuk scan KTP
 
 Setelah scan KTP maka aplikasi akan memroses sesuai menu/fitur yang dipilih user
