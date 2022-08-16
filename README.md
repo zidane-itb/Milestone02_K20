@@ -2,7 +2,7 @@
 ## Kelompok 20 : Cemara
 **Nama Anggota Kelompok**
 | Nomor | Nama                    | NIM      |
-| ----- |-------------------------| ---------|
+| :---: |-------------------------| ---------|
 | 1     | Aditya Inas Hamidah     | 16521107 |
 | 2     | Ahmad Rivai Yahya       | 16521523 |
 | 3     | Angger Ilham A          | 16521517 |     
