@@ -1,4 +1,4 @@
-# milestone-2-sparta
+# Milestone 2 SPARTA by Kelompok 20 : Cemara Identity Scanner (CIS)
 ## Kelompok 20 : Cemara
 **Nama Anggota Kelompok**
 | Nomor | Nama                    | NIM      | Kontribusi |
