@@ -31,7 +31,7 @@ https://docs.flutter.dev/get-started/editor?tab=androidstudio
 
 - **Cara memakai aplikasi**
 
-Tekan tombol Get Started dan Anda akan diarahkan ke halaman utama
+Tekan tombol Get Started dan user akan diarahkan ke halaman utama
 
 Pada halaman utama, terdapat 4 bagian yaitu show data, validate, auto fill form, dan connect(coming soon feature)
 
