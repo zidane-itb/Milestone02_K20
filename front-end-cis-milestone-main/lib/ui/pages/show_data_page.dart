@@ -1,8 +1,31 @@
+import 'dart:ffi';
+import 'package:cis/remote/data_api.dart';
+import 'package:cis/remote/remote_api.dart';
 import 'package:flutter/material.dart';
 import '../../shared/theme.dart';
 
-class ShowDataPage extends StatelessWidget {
+class ShowDataPage extends StatefulWidget {
   const ShowDataPage({Key? key}) : super(key: key);
+
+  @override
+  _ShowDataPageState createState() => _ShowDataPageState();
+}
+
+class _ShowDataPageState extends State<ShowDataPage> {
+  var data;
+  var isLoaded = false;
+
+  @override
+  void initState() {
+    getData();
+  }
+
+  getData() async {
+    data = await RemoteApi().getData();
+    setState(() {
+      isLoaded = true;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +64,9 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Robert Vancini',
+                    'Robert Vancini'
+                    //data![0].fullName,
+                    ,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -52,7 +77,9 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    '00307734661268',
+                    '00307734661268'
+                    //data[0].nik,
+                    ,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -63,7 +90,9 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Laki-laki',
+                    'Laki-laki'
+                    //data[0].gender,
+                    ,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -74,7 +103,9 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Jl. Martadinata, Soreang, Kab. Bandung, Jawa Barat',
+                    'Jl. Martadinata, Soreang, Kab. Bandung, Jawa Barat'
+                    //data[0].address,
+                    ,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -96,7 +127,9 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Belum Menikah',
+                    'Belum Menikah'
+                    //data[0].statusPernikahan,
+                    ,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -140,5 +173,11 @@ class ShowDataPage extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    throw UnimplementedError();
   }
 }
