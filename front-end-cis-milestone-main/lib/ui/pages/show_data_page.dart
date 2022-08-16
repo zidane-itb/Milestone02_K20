@@ -1,8 +1,31 @@
+import 'dart:ffi';
+import 'package:cis/remote/data_api.dart';
+import 'package:cis/remote/remote_api.dart';
 import 'package:flutter/material.dart';
 import '../../shared/theme.dart';
 
-class ShowDataPage extends StatelessWidget {
+class ShowDataPage extends StatefulWidget {
   const ShowDataPage({Key? key}) : super(key: key);
+
+  @override
+  _ShowDataPageState createState() => _ShowDataPageState();
+}
+
+class _ShowDataPageState extends State<ShowDataPage> {
+  var data;
+  var isLoaded = false;
+
+  @override
+  void initState() {
+    getData();
+  }
+
+  getData() async {
+    data = await RemoteApi().getData();
+    setState(() {
+      isLoaded = true;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +64,7 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Robert Vancini',
+                    data?.Fullname,
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -96,7 +119,7 @@ class ShowDataPage extends StatelessWidget {
                         fontSize: 14, fontWeight: regular),
                   ),
                   Text(
-                    'Belum Menikah',
+                    'Status Pernikahan',
                     style: whiteTextStyle.copyWith(
                         fontSize: 16, fontWeight: medium),
                   ),
@@ -140,5 +163,11 @@ class ShowDataPage extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    throw UnimplementedError();
   }
 }
